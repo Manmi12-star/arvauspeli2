@@ -24,7 +24,7 @@ public class arvauspeli {
 //			}
 		
 		guess++;
-		if(nimi.equals("Anastasia"))
+		if(nimi.equals("Mani"))
 		{
 		System.out.println("You guessed right.");
 
