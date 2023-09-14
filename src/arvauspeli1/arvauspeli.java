@@ -13,7 +13,7 @@ public class arvauspeli {
 		int guess = 0;
 		String stop = "End";
 
-		System.out.println("What is my name");
+		System.out.println("What is your name?");
 
 		do
 		{
