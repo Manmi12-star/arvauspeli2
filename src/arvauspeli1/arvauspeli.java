@@ -18,22 +18,23 @@ public class arvauspeli {
 		do
 		{
 		nimi = in.nextLine();
-//		if (stop.equals(nimi)) {
-//			System.out.println("You guessed " + guess + " times.");
-//			guess--;
-//			}
+		if (stop.equals(nimi)) {
+			System.out.println("You guessed " + guess + " times.");
+			guess--;
+			}
 		
 		guess++;
 		if(nimi.equals("Mani"))
 		{
 		System.out.println("You guessed right.");
+		System.out.println("You guessed " + guess + " time.");
 
 		break;
 		}
 
 		if (!nimi.equals(stop))
 		{
-		System.out.println("You can guess again or write End to end the game)");
+		System.out.println("You can guess again or write End to end the game");
 		
 		}
 		}
